@@ -45,4 +45,4 @@ Pour utiliser ce système, assurez-vous de disposer d'un environnement de dével
 npm install
 
 # Lancer le serveur
-npm start
+npm run dev
