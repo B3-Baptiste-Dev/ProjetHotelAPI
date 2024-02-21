@@ -14,9 +14,8 @@ router.get(
         next();
     });
 router.get(
-    '/hotelRoom/:id', (req, res) => {
+    '/hotelRoom/:number', (req, res) => {
         clientsController.FindRoomByID(req, res)
-        next();
     });
 router.post(
     '/postReservation/:id', (req, res, next) => {

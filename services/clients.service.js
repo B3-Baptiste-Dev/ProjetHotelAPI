@@ -15,8 +15,8 @@ class ClientsService {
         }
     }
 
-    getIFindRoomByID(id) {
-        return hotels.rooms.find(room => room.number === parseInt(id));
+    getIFindRoomByID(number) {
+        return hotels.rooms.find(room => room.number === parseInt(number));
     }
 
     postReservation(id) {

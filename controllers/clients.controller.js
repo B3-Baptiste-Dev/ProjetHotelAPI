@@ -14,7 +14,7 @@ class ClientsController {
     }
 
     FindRoomByID(req, res) {
-        const room = clientsService.getIFindRoomByID(req.params.id);
+        const room = clientsService.getIFindRoomByID(req.params.number);
         if (room) {
             res.send(room);
         } else {
